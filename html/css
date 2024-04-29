@@ -1,0 +1,138 @@
+Web development
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>documentation </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1> HTML & CSS </h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#porjects">Projects ideas</a></li>
+        <li><a href="#courses">online courses</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>HTML is a markup language used to create static web pages and web applications. CSS is a style sheet language responsible for the presentation of documents written in a markup language.The main reason why HTML and CSS aren't considered programming languages is because they only determine the structure and the style of the webpage you're building.</p>
+      
+      <h2>How to create a website using HTML and CSS</h2>
+<ul>
+  <li>Step 1: Get a domain name and URL. It's important to choose a good domain name.</li>
+  <li>Step 2: Set up an email address to match your domain name.</li>
+  <li>Step 3: Find a web hosting company.</li>
+  <li>Step 4: Design your website.</li>
+  <li>Step 5: Build your website.</li>
+  <li>Step 6: Add and manage your website content.</li>
+  <li>Step 7: Publish your website.</li>
+</ul>
+      
+    </section>
+    <section id="porjects">
+      <h2>Projects ideas</h2>
+      <div class="project">
+ 
+        
+  <p>Certainly! Here's a list of friendly project ideas that you can create using HTML and CSS:</p>
+  <ul>
+    <li><strong>Personal Portfolio</strong>: Build a portfolio website to showcase your projects, skills, and experience. Include sections for your bio, projects, contact information, and a downloadable resume.</li>
+    <li><strong>Recipe Book</strong>: Create a recipe website with your favorite recipes. Include images, ingredients, instructions, and maybe even some cooking tips.</li>
+    <li><strong>Product Landing Page</strong>: Design a landing page for a fictional product or service. Include features, pricing, testimonials, and a call-to-action button.</li>
+    <li><strong>Travel Destination Guide</strong>: Build a website showcasing your favorite travel destinations. Include photos, descriptions, maps, and recommendations for things to do.</li>
+    <li><strong>Event Countdown Timer</strong>: Create a countdown timer for an upcoming event like a birthday, holiday, or vacation. Customize the design and include animations for added flair.</li>
+    <li><strong>Tech Blog</strong>: Start a blog where you can write about technology news, reviews, and tutorials. Use CSS to style your posts and create a visually appealing layout.</li>
+    <li><strong>Online Resume/CV</strong>: Design a digital resume or CV using HTML and CSS. Include sections for your education, work experience, skills, and achievements.</li>
+    <li><strong>Weather App</strong>: Build a simple weather app that displays the current weather conditions for a specified location. Use CSS to style the interface and make it visually appealing.</li>
+    <li><strong>Quiz or Trivia Game</strong>: Create a quiz or trivia game using HTML for the structure and CSS for styling. Include questions, multiple-choice answers, and a scoring system.</li>
+    <li><strong>Personal Blog</strong>: Start a personal blog where you can write about your interests, hobbies, and experiences. Customize the design with CSS to reflect your personality.</li>
+    <li><strong>Online Portfolio for Artists</strong>: Design a portfolio website for artists to showcase their artwork. Include galleries, descriptions, and contact information.</li>
+    <li><strong>Fitness Tracker</strong>: Build a fitness tracker website where users can log their workouts, set goals, and track their progress. Use CSS to create a user-friendly interface.</li>
+    <li><strong>Online Bookstore</strong>: Create a virtual bookstore with book covers, summaries, genres, and search functionality. Use CSS to style the layout and make it visually appealing.</li>
+    <li><strong>Movie Database</strong>: Build a movie database website where users can search for movies, read reviews, and watch trailers. Use CSS to style the interface and make it user-friendly.</li>
+    <li><strong>Music Player</strong>: Design a simple music player interface using HTML and CSS. Include controls for play, pause, skip, volume, and a playlist.</li>
+  </ul>
+      </div>
+      <!-- Add more projects here -->
+    </section>
+    <section id="courses">
+      
+      <h3>Online Courses for HTML and CSS</h3>
+  <p>Check out these online courses to learn HTML and CSS:</p>
+  <ul>
+    <li>
+      <strong>Udemy:</strong> 
+      <a href="https://www.udemy.com/courses/search/?q=html%20and%20css" target="_blank">HTML and CSS Courses on Udemy</a>
+    </li>
+    <li>
+      <strong>Coursera:</strong> 
+      <a href="https://www.coursera.org/courses?query=html%20and%20css" target="_blank">HTML and CSS Courses on Coursera</a>
+    </li>
+  </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 html and css. All rights reserved.</p>
+  </footer>
+  
+
+</body>
+</html>
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: yellow; /* Set body background color to lime */
+  color: black; /* Set text color for body to black */
+}
+
+header {
+  background-color: black ; /* Set header background color to orange */
+  color: white; /* Set text color for header to white */
+  padding: 20px;
+}
+header h1 {
+  font-weight: bold; /* Make the title bold */
+}
+header h2 {
+  font-weight: bold; /* Make the title bold */
+}
+header h3 {
+  font-weight: bold; /* Make the title bold */
+}
+nav ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white; /* Set text color for navigation links to black */
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
